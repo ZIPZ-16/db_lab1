@@ -1,6 +1,6 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
-        TForm1 app = new TForm1();
+        MainForm app = new MainForm();
         app.setVisible(true);
     }
 }
