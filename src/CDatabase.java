@@ -5,9 +5,9 @@ class CDatabase {
     private Connection connection = null;
 
     CDatabase() {
-        String host = "jdbc:mysql://localhost:3306/larablog?useLegacyDatetimeCode=false&serverTimezone=Europe/Kiev";
-        String name = "root";
-        String password = "";
+        String host = "jdbc:mysql://den1.mysql4.gear.host/veizdemdb1";
+        String name = "veizdemdb1";
+        String password = "Eo987?nCs5D~";
         try {
             this.connection = DriverManager.getConnection(host, name, password);
         } catch (SQLException e) {

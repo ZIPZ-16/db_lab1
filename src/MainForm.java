@@ -107,7 +107,7 @@ class MainForm extends JFrame {
 //
 //        }
         CDatabase db = new CDatabase();
-        String[] tablesList = db.runQuery("show tables in larablog;");
+        String[] tablesList = db.runQuery("show tables in veizdemdb1;");
         for (int i = 0; i < tablesList.length; i++)
         {
             comboTable.addItem(tablesList[i]);
