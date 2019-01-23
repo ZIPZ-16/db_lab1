@@ -5,7 +5,7 @@ class CDatabase {
     private Connection connection = null;
 
     CDatabase() {
-        String host = "jdbc:mysql://localhost:3306/larablog?useLegacyDatetimeCode=false&serverTimezone=Europe/Kiev";
+        String host = "jdbc:mysql://localhost:3306/lab1?useLegacyDatetimeCode=false&serverTimezone=Europe/Kiev";
         String name = "root";
         String password = "";
         try {
